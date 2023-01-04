@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-contact__title {
+  text-align: center;
+}
+
+.title__contact {
+  font-size: 23px;
+}
+
+.container-contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  width: 310px;
+  margin-bottom: 27px;
+}
+
+.label {
+  font-size: 13px;
+}
+
+.control {
+  width: 310px;
+}
+
+.campos {
+  width: 310px;
+  height: 45px;
+}
+
+.textarea {
+  height: 113px;
+}
+
+.button {
+  width: 310px;
+  height: 45px;
+  color: white;
+  background-color: #2c2c2c;
+  border: none;
+  margin-top: 33px;
+}
+
+@media (min-width: 600px) {
+  .container-contact {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .container-contact__title {
+    height: 430px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 600px) {
+  .container-contact__form {
+    width: 400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .campos {
+    width: 356px;
+  }
+}
+
+@media (min-width: 600px) {
+  .button {
+    width: 356px;
+    margin-left: 45px;
+  }
+}

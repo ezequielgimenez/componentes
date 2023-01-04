@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 90px;
+  background-color: #de4545;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 569px;
+  background-color: #5fe0c9;
+}
+
+.section__title {
+  color: black;
+}
+
+@media (min-width: 960px) {
+  .section {
+    height: 100vh;
+  }
+}
